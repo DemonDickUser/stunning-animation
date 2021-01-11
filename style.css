@@ -1,0 +1,128 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
+
+/*------- start up ------- */
+
+.main-intro {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  overflow: hidden;
+}
+.intro {
+  position: fixed;
+  background: rgb(41, 24, 12);
+  left: 0%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(0%);
+}
+.intro-text {
+  color: rgb(189, 121, 73);
+  font-family: "Caesar Dressing", cursive;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.start-up {
+  background: rgb(41, 24, 12);
+  overflow: hidden;
+}
+.start-up span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+.slider {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-100%);
+  background: rgb(17, 2, 2);
+}
+
+/*-------main-page------------*/
+
+/*--------nav-bar---------*/
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  box-shadow: 0 10px 10px rgb(110, 75, 21, 0.3);
+}
+.nav h2 {
+  color: black;
+  font-size: 2rem;
+  font-family: "Texturina", serif;
+}
+ul {
+  display: flex;
+}
+ul li {
+  display: flex;
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+ul li a {
+  color: black;
+  padding: 0 1rem;
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  font-family: "Caesar Dressing", cursive;
+}
+
+/* ---------first-section-------------*/
+
+.main {
+  min-height: 100vh;
+  background-image: url("pic.jpg");
+  background-size: cover;
+  padding: 0 3rem;
+}
+
+.text {
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+}
+.text h3 {
+  font-size: 6rem;
+  font-family: "Princess Sofia", cursive;
+  color: black;
+}
+
+/*----------------second-section-----------*/
+
+.section2 {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  padding: 10rem;
+  background: linear-gradient(to bottom, rgb(168, 89, 28), rgb(255, 255, 255));
+}
+.sec-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.pic {
+  background-image: url("math2.gif");
+  background-size: contain;
+  background-position: center;
+}
